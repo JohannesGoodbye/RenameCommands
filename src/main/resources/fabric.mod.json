@@ -3,9 +3,9 @@
 	"id": "rename_command",
 	"version": "${version}",
 	"name": "RenameCommand",
-	"description": "This mod adds a command for quickly renaming items without an anvil.",
+	"description": "This mod adds a command for quickly renaming items and entities.",
 	"authors": [
-		"Me!"
+		"John Adept"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
