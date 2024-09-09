@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "rename_command",
+	"version": "${version}",
+	"name": "RenameCommand",
+	"description": "This mod adds a command for quickly renaming items without an anvil.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rename_command/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.johnadept.rename.Rename"
+		],
+		"client": [
+			"de.johnadept.rename.RenameCommandClient"
+		]
+	},
+	"mixins": [
+		"rename_command.mixins.json",
+		{
+			"config": "rename_command.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

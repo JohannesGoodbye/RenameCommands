@@ -1,0 +1,14 @@
+{
+  "commands.rename.failed.entity": "%s is not a valid entity for this command",
+  "commands.rename.failed.itemless": "%s is not holding any item",
+  "commands.rename.failed": "Nothing changed. Targets either have no item in their hands or an error occurred",
+  "commands.rename.success.single": "Renamed %s's item to ''%s''",
+  "commands.rename.success.multiple": "Renamed items for %s entities to ''%s''",
+  "commands.reset_name.success.single": "Removed custom name from %s's item",
+  "commands.reset_name.success.multiple": "Removed custom names from items for %s entities",
+  "commands.rename_entity.failed": "Nothing changed. Targets aren't supported",
+  "commands.rename_entity.success.single": "Renamed %s to ''%s''",
+  "commands.rename_entity.success.multiple": "Renamed %s entities to ''%s''",
+  "commands.reset_entity_name.success.single": "Removed custom name from %s",
+  "commands.reset_entity_name.success.multiple": "Removed custom names from %s entities"
+}
